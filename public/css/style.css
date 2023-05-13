@@ -1,0 +1,272 @@
+/*------------------Table---------------------*/
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(167, 167, 167);
+}
+table{
+    border-collapse: separate;
+    margin: auto;
+    text-align: center;
+}
+td{
+    border:1px solid black;
+    width: 65px;
+    height: 75px;
+    transition: all 0.4s ease;
+    vertical-align: top;
+}
+/*----------refaire par jquery pour faire un hide et show, ainsi faire apparaitre autre chose de l'autre coté*/
+td:hover{
+    transform: scale(1.1);
+    transform: rotateY(180deg);
+    border-width: 1px 1px 3px 3px;
+    background-color: azure;
+
+}
+/*------------------------------------------*/
+.affichage:hover{
+    transform: scale(1);
+    border-width: 1px 3px 3px 1px;
+}
+.vide{
+    border-width: 0;
+}
+h4{
+    margin: 0;
+}
+td p{
+    margin: 0;
+}
+td p:hover{
+    color: blue;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.titre, .titreEtat{
+    margin-top: 10%;
+    text-align: center;
+    font-family: "American Typewriter" ;
+}
+th span{
+    color: black;
+}
+
+/*-----Affichage zone ecran-----------*/
+.AffichAtome .nom{
+    height: 228px;
+    width: 203px;
+}
+.affichage{
+    background-color: azure;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 3px 3px 1px;
+}
+td{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 3px 3px 1px;
+}
+
+.textPresentation{
+    text-align: left;
+    padding: 3px;
+}
+h1{
+    margin: 3px;
+}
+/*-----Affichage ligne 2---------*/
+
+.LegendeCouleur2{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+.GroupeLegendeCouleur2, .NonClasse{
+    width: 363px;
+    word-wrap: break-word;
+}
+.defZone2{
+    text-align: left;
+    font-size: 0.9em;
+    margin-left: 3px;
+}
+/*-----Affichage ligne 8---------*/
+.LegendeCouleur{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+.GroupeLegendeCouleur1{
+    overflow: auto;
+    height: 164px;
+}
+.GroupeMetaux, .GroupeNonMetaux{
+    border-width:1px 1px 1px 0;
+    border-color: black;
+    border-style: solid;
+    background-color: antiquewhite;
+}
+.top{
+    margin-top: 3px;
+}
+.titreGroupeMetaux{
+    font-family: "Adobe Arabic";
+}
+.titreGroupeMetaux1{
+    border-width:0 0 1px 0;
+    border-color: black;
+    border-style: solid;
+    background-color: darkgrey;
+    margin-bottom: 2px;
+}
+/*-----Taille-----------*/
+.nom2, .massAtom2{
+    font-size: 2em;
+}
+.legende2{
+    font-size: 1.7em;
+}
+.symbole2, .numero2{
+    font-weight: bold;
+    font-size: 2.7em;
+}
+
+
+.nom3{
+    font-size: 4em;
+}
+
+
+.nom, .massAtom{
+    font-size: 0.7em;
+}
+.symbole, .numero{
+    font-weight: bold;
+}
+.legende{
+    font-size: 0.4em;
+}
+/*-----------------------------------*/
+/*------Repère couleur--------------*/
+/*-----------------------------------*/
+
+.Lanthanides{
+    background-color: hotpink;
+}
+.CouleurLanthanides{
+    height: 10px;
+    width: 20px;
+    border:1px solid black;
+    background-color: hotpink;
+}
+/*-----------------------------------*/
+.Actinides{
+    background-color: red;
+}
+.CouleurActinides{
+    height: 10px;
+    width: 20px;
+    border:1px solid black;
+    background-color: red;
+}
+/*-----------------------------------*/
+.nonDéterminé{
+    background-color: darkgray;
+}
+.CouleurNonClasse{
+    height: 10px;
+    width: 20px;
+    border:1px solid black;
+    background-color: darkgray;
+}
+/*-----------------------------------*/
+.NonMetaux{
+    background-color: limegreen;
+}
+.CouleurNonMétaux{
+     height: 10px;
+     width: 20px;
+     border:1px solid black;
+     background-color: limegreen;
+ }
+/*-----------------------------------*/
+.gazNobles{
+    background-color: deepskyblue;
+}
+.CouleurGazNobles{
+    height: 10px;
+    width: 20px;
+    border:1px solid black;
+    background-color: deepskyblue;
+}
+/*-----------------------------------*/
+.halogene{
+    background-color: darkviolet;
+}
+.CouleurHalogènes{
+    height: 10px;
+    width: 20px;
+    border:1px solid black;
+    background-color: darkviolet;
+}
+/*-----------------------------------*/
+.metauxAlcalin{
+    background-color: orange;
+}
+.CouleurAlcalins{
+    height: 10px;
+    width: 20px;
+    border:1px solid black;
+    background-color: orange;
+}
+/*-----------------------------------*/
+.metauxAlcalinoTerreux{
+    background-color: rgb(188,105,18);
+}
+.CouleurAlcalinoTerreux{
+    height: 10px;
+    width: 20px;
+    border:1px solid black;
+    background-color: rgb(188,105,18);
+}
+/*-----------------------------------*/
+.metauxTransition{
+    background-color: rgb(175, 161, 0);
+}
+.CouleurMétauxdetransition{
+    height: 10px;
+    width: 20px;
+    border:1px solid black;
+    background-color: rgb(175, 161, 0);
+}
+/*-----------------------------------*/
+.PostTransitionMetals{
+    background-color: greenyellow;
+}
+.CouleurMétauxPauvres{
+    height: 10px;
+    width: 20px;
+    border:1px solid black;
+    background-color: greenyellow;
+}
+/*-----------------------------------*/
+.metalloides{
+    background-color: burlywood;
+}
+.CouleurMétalloides{
+    height: 10px;
+    width: 20px;
+    border:1px solid black;
+    background-color: burlywood;
+}
+/*-----------------------------------*/
